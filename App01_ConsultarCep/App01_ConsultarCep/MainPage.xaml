@@ -7,7 +7,7 @@
     <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
         <Image Source="LogoCorreios.png" />
         <Entry Placeholder="Digite o CEP" PlaceholderColor="#FFBF00" BackgroundColor="#FFFFFF" x:Name="EntCep" />
-        <Button Text="BUSCAR CEP" TextColor="#FFFFFF" BackgroundColor="#00416B" x:Name="btnBuscar" />
+        <Button Text="BUSCAR CEP" TextColor="#FFFFFF" BackgroundColor="#00416B" x:Name="btnBuscar" Clicked="BuscarCep" />
         
         
         
